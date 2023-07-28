@@ -116,7 +116,7 @@ ul{
 
 .nav-item{
 	position: relative;
-	color: var(--navyblue);
+	color: #404bbf;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
@@ -351,6 +351,8 @@ ul{
 	background-color: #404bbf;
 }
 .team-icon {
+	width: 16px;
+	height: 16px;
 	fill: var(--cloud);
 }
 .team-title{
