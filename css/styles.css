@@ -28,6 +28,7 @@ body{
 	--white: #FFF;
 	--cloud: #F4F4FD;
 	--cornflower: #E7E9FC;
+	--lightslate: #8E8F99;
 }
 
 .container {
@@ -159,7 +160,9 @@ ul{
 /* ________________MAIN____________________ */
 
 .intro{
-	background-color: var(--navyblue);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+			rgba(46, 47, 66, 0.7)),
+		url(../images/hero-image.jpg);
 	padding: 188px 0;
 }
 .intro-title{
@@ -326,6 +329,51 @@ ul{
 	letter-spacing: 0.32px;
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+.customers{
+	margin-bottom: 120px;
+	margin-top: 120px;
+}
+.customers-list {
+	display: flex;
+	gap: 24px;
+}
+.customers-item{
+	border-radius: 4px;
+	border: 1px solid var(--lightslate);
+	align-items: center;
+	text-align: center;
+}
+.customers-item:hover,
+.customers-item:focus{
+	fill: var(--ocean);
+}
+.customers-icon{
+	width: 104px;
+	height: 56px;
+	fill: var(--lightslate);
+}
+.customers-title {
+	color: var(--navyblue);
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 111.111%;
+	letter-spacing: 0.72px;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 72px;
+}
+
 
 
 
