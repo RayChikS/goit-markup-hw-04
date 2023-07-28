@@ -335,6 +335,7 @@ ul{
 .team-info-list-item {
 	height: 40px;
 	width: 40px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon-social{
 	background-color: var(--iris);
@@ -350,9 +351,7 @@ ul{
 	background-color: #404bbf;
 }
 .team-icon {
-	width: 16px;
-	height: 16px;
-	fill: var(--white);
+	fill: var(--cloud);
 }
 .team-title{
 	color: var(--navyblue);
