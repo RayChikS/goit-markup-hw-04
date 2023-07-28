@@ -183,6 +183,7 @@ ul{
 /* ________________MAIN____________________ */
 
 .intro{
+	margin: 0 auto;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)),
 		url(../images/hero-image.jpg);
@@ -396,6 +397,7 @@ ul{
 	line-height: 150%;
 	letter-spacing: 0.32px;
 	text-align: center;
+	margin-bottom: 8px;
 }
 
 
