@@ -251,6 +251,18 @@ ul{
 .advantages-item{
 	width: calc((100% - 72px) / 4);
 }
+.advantages-icon{
+	width: 64px;
+	height: 64px;
+}
+.advantages-item-content{
+	text-align: center;
+	background-color: var(--cloud);
+	padding: 24px 100px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+}
+
 
 
 
@@ -297,6 +309,22 @@ ul{
 }
 .team-info{
 	padding: 32px 0;
+}
+.team-info-list{
+	display: flex;
+	gap: 24px;
+}
+.team-info-list-item {
+	background-color: var(--iris);
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+.team-icon {
+	width: 16px;
+	height: 16px;
+	fill: var(--white);
 }
 .team-title{
 	color: var(--navyblue);
@@ -352,9 +380,14 @@ ul{
 	border: 1px solid var(--lightslate);
 	align-items: center;
 	text-align: center;
+	width: calc((100% - 120px) / 6);
 }
 .customers-item:hover,
 .customers-item:focus{
+	border: 1px solid var(--ocean);
+}
+.customers-icon:hover,
+.customers-icon:focus {
 	fill: var(--ocean);
 }
 .customers-icon{
